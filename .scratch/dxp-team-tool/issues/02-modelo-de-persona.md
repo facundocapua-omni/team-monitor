@@ -15,3 +15,9 @@ Map: [map.md](../map.md)
 - **Altas y bajas**: cómo se modelan.
 
 El modelo no debe impedir que más adelante haya permisos por Región.
+
+**Restricciones ya decididas** (ver [Restricciones legales](01-restricciones-legales.md)):
+- país y entidad empleadora son obligatorios;
+- fecha de salida con purga;
+- export y borrado de una persona;
+- sin texto libre que pueda revelar datos sensibles, y sin campos de salario, salud, sindicato o familia.

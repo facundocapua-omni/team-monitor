@@ -20,3 +20,13 @@ Candidatas:
 - Evaluación de desempeño baja;
 - marca manual de riesgo de fuga (depende de lo que permita la parte legal);
 - Nivel de inglés por debajo del que requiere su Asignación.
+
+**Restricciones ya decididas** (ver [Restricciones legales](01-restricciones-legales.md)):
+- Las alertas se calculan al leer, a partir de reglas versionadas, y solo se guardan los descartes.
+- Las reglas tienen que ser explicables: en España alimentan la ficha algorítmica que se entrega a cada persona y al comité de empresa.
+- El riesgo de fuga queda pendiente de que Legal lo valide (ver [Requisitos de TI y Legal](08-requisitos-de-ti.md)). Si se incluye, es una entidad propia:
+  - valores de una lista cerrada;
+  - tiene caducidad;
+  - se puede desactivar por jurisdicción;
+  - queda fuera de exportes y reportes;
+  - nunca se calcula a partir de otros datos.
