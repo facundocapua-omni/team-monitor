@@ -23,3 +23,6 @@ También hay que decidir:
 - si alcanza con una foto del momento o hace falta la evolución en el tiempo (eso exigiría guardar historial).
 
 Entra solo si sale casi gratis de los mismos datos.
+
+**Decidido en [Modelo de Persona](02-modelo-de-persona.md)**:
+- los Movimientos ya guardan el historial de Ingresos, Bajas, Rol, Seniority, Track y manager, así que la evolución del headcount y la rotación salen casi gratis.

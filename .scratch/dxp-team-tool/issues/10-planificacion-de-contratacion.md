@@ -17,3 +17,7 @@ Queda por decidir:
 - qué cuenta como "disponible";
 - cómo se cuentan las Asignaciones tentativas;
 - qué salida hace falta: una vista, o un export para pedir headcount.
+
+**Decidido en [Modelo de Persona](02-modelo-de-persona.md)**:
+- los Ingresos y las Bajas pueden ser futuros: un Ingreso futuro suma oferta y una Baja anunciada la resta;
+- los externos también son oferta.

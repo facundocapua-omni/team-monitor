@@ -25,3 +25,7 @@ Candidatas:
 - las alertas sugieren, pero nunca excluyen automáticamente: la decisión es del usuario;
 - las reglas tienen que ser explicables, por si hay que informarlas en España;
 - la marca de riesgo de fuga depende de lo que responda RRHH (ver [Requisitos de TI](08-requisitos-de-ti.md)). Si entra, nunca se calcula a partir de otros datos.
+
+**Decidido en [Modelo de Persona](02-modelo-de-persona.md)**:
+- candidatas nuevas: un Tech Leader por debajo de L8; personas que reportan a alguien con Baja cargada, o sin manager activo pasada la fecha; Líneas de reporte fuera del esquema, como un Developer que reporta a un Tech Manager;
+- falta decidir si los externos cuentan en el span de control de su Tech Leader.

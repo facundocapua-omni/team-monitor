@@ -16,3 +16,6 @@ Map: [map.md](../map.md)
 No debe mezclarse con los Delivery KPIs. El handbook prohíbe atribuírselos a un Developer; en Tech Leaders y Tech Managers ya entran como insumo de su evaluación.
 
 **Restricciones ya decididas** (ver [Restricciones legales](01-restricciones-legales.md)): en el staffing, la evaluación puede ordenar o marcar, pero nunca excluir automáticamente a nadie.
+
+**Decidido en [Modelo de Persona](02-modelo-de-persona.md)**:
+- hay externos en la Dirección. Falta decidir si tienen Evaluación de desempeño.

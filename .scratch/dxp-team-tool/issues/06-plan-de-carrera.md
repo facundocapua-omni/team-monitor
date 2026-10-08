@@ -18,3 +18,7 @@ Propuesta para discutir:
 - fecha de última revisión.
 
 ¿Hay un solo plan activo por persona o pueden ser varios? ¿Cómo se cierra un plan cuando se logra o se abandona?
+
+**Decidido en [Modelo de Persona](02-modelo-de-persona.md)**:
+- la Seniority tiene historial (Movimientos con fecha efectiva), así que el tiempo en el nivel ya está disponible;
+- hay externos en la Dirección. Falta decidir si tienen Plan de carrera.

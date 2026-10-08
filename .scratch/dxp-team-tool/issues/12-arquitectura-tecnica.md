@@ -18,3 +18,6 @@ El stack ya está decidido: Next.js, Tailwind, shadcn/ui, SQLite + Drizzle, Shee
 - la base vive fuera del repo y fuera de nubes personales, con el disco cifrado;
 - se puede exportar o borrar a una persona;
 - al pasar al hosting de TI aplica el análisis legal completo; por ejemplo, un log de accesos.
+
+**Decidido en [Modelo de Persona](02-modelo-de-persona.md)**:
+- la historia de una Persona son Movimientos con fecha efectiva, que pueden ser futuros, y su estado en una fecha se reconstruye a partir de ellos. Esto pesa en el esquema de datos y en las consultas.

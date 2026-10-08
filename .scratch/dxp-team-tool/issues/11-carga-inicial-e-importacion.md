@@ -17,3 +17,8 @@ Ya está decidido que, por ahora, la carga manual es el canal principal. Falta d
 - qué validaciones se aplican.
 
 El diseño no debe impedir que más adelante cada Tech Manager cargue lo suyo.
+
+**Decidido en [Modelo de Persona](02-modelo-de-persona.md)**:
+- la clave para no duplicar es el email corporativo;
+- la Región no se importa: se deriva del manager. La Ciudad es opcional;
+- cada persona entra con un Movimiento de Ingreso, con su fecha de entrada a la Dirección. Falta decidir qué se usa si las planillas solo traen la fecha de ingreso a la empresa.
