@@ -7,7 +7,7 @@ Map: [map.md](../map.md)
 
 ## Question
 
-El stack ya está decidido: Next.js, Tailwind, shadcn/ui, SQLite + Drizzle, SheetJS, y Auth.js con Google más adelante. A la luz de las restricciones legales y de TI, falta decidir:
+El stack ya está decidido: Next.js, Tailwind, shadcn/ui, SQLite + Drizzle, SheetJS, y Auth.js con Google más adelante. A la luz de las restricciones de TI, falta decidir:
 
 - dónde vive el archivo SQLite y cómo se cifra en reposo;
 - cómo se hacen los backups;
@@ -16,6 +16,5 @@ El stack ya está decidido: Next.js, Tailwind, shadcn/ui, SQLite + Drizzle, Shee
 
 **Restricciones ya decididas** (ver [Restricciones legales](01-restricciones-legales.md)):
 - la base vive fuera del repo y fuera de nubes personales, con el disco cifrado;
-- export y borrado de una persona con un comando;
-- purga automática a partir de la fecha de salida;
-- log de accesos cuando haya hosting.
+- se puede exportar o borrar a una persona;
+- al pasar al hosting de TI aplica el análisis legal completo; por ejemplo, un log de accesos.

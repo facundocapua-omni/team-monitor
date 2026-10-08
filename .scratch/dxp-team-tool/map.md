@@ -5,7 +5,7 @@ Tickets: [issues/](issues/)
 
 ## Destination
 
-**Spec del MVP de la herramienta de gestión de la Dirección DXP**: uso personal del Global Tech Director, ~150 personas en 2 Regiones, centrada en staffing, planificación de contratación y alertas de riesgo (más reportes hacia arriba derivados de los mismos datos), con carga manual. Lista para construir, con la plataforma decidida y viable dentro de las restricciones de TI y legales.
+**Spec del MVP de la herramienta de gestión de la Dirección DXP**: uso personal del Global Tech Director, ~150 personas en 2 Regiones, centrada en staffing, planificación de contratación y alertas de riesgo (más reportes hacia arriba derivados de los mismos datos), con carga manual. Lista para construir, con la plataforma decidida y viable dentro de las restricciones de TI.
 
 ## Notes
 
@@ -19,13 +19,13 @@ Tickets: [issues/](issues/)
 - **Stack (decidido)**: construcción propia con Next.js + Tailwind + shadcn/ui, SQLite + Drizzle ORM y SheetJS para importar. Auth.js con Google SSO llega más adelante. La construye el propio usuario acelerando con IA; plazo: lo antes posible.
 - **Hosting**: local en la máquina del usuario; después, hosting aprobado por TI con Google SSO.
 - **Regla dura**: "KPI" significa Delivery KPI de equipo. Nunca se muestran Delivery KPIs en el perfil de un Developer. Lo individual es la Evaluación de desempeño.
-- **Datos reales**: nunca se commitean datos de personas en este repo. Hasta cumplir las precondiciones legales, se trabaja solo con datos ficticios (ver [Restricciones legales](issues/01-restricciones-legales.md)).
+- **Datos reales**: nunca se commitean datos de personas en este repo.
 
 ## Decisions so far
 
 <!-- one line per closed ticket: [title](link): gist -->
 
-- [Restricciones legales para guardar datos de personas](issues/01-restricciones-legales.md): el responsable es la empresa y aplica el estándar RGPD para todos más los requisitos de cada país. Solo datos ficticios hasta cumplir las precondiciones. El riesgo de fuga queda bloqueado hasta que Legal lo valide. Las alertas ordenan y marcan, nunca excluyen; en España exigen ficha algorítmica. Impacto en el modelo: país y entidad obligatorios, purga, export y borrado.
+- [Restricciones legales para guardar datos de personas](issues/01-restricciones-legales.md): la herramienta no cambia la base legal, porque reorganiza datos que el usuario ya trata y para los mismos fines. Lo nuevo a cuidar: los datos que se crean (riesgo de fuga), las reglas que ordenan o filtran gente (sugieren, nunca excluyen; consultar a RRHH para España) y la seguridad de la base concentrada.
 
 ## Not yet specified
 
@@ -36,9 +36,8 @@ Tickets: [issues/](issues/)
 ## Out of scope
 
 - **Multiusuario, permisos por Región y carga por los Tech Managers**: el MVP es de uso personal; solo se exige que el modelo no lo impida. Decidido al trazar el mapa.
-- **Google SSO y hosting corporativo**: llegan después; la arquitectura solo debe dejar el camino abierto.
+- **Google SSO y hosting corporativo**: llegan después; la arquitectura solo debe dejar el camino abierto. Al dar ese paso aplica el análisis legal completo (ver [Restricciones legales](issues/01-restricciones-legales.md)).
 - **Integraciones con Jira, HRIS u otros sistemas**: no hay un sistema unificado; la carga es manual con import inicial.
 - **Delivery KPIs**: los produce el esfuerzo de Delivery Metrics Automation (`../structure/docs/superpowers/specs/2026-10-06-delivery-metrics-automation-design.md`) y nunca se muestran por Developer.
 - **Notas de 1:1 y flujo de promociones o calibraciones**: no entraron entre las prioridades del MVP.
 - **Definir la escala de Seniority, los career paths o los criterios de evaluación**: son del handbook, no de la herramienta.
-- **Trámites de cumplimiento**: registro del tratamiento, evaluación de impacto, avisos de privacidad, ficha algorítmica, contratos y registros locales. Son precondición para cargar datos reales, no para escribir la spec; los lleva el usuario con Legal y el DPO. La spec solo tiene que darles soporte: export, borrado, purga y reglas documentadas (ver [Restricciones legales](issues/01-restricciones-legales.md)).

@@ -18,15 +18,10 @@ Candidatas:
 - un "rescate" de más de un mes, es decir, un Tech Manager haciendo de Tech Leader;
 - persona sin Plan de carrera, o con el plan sin revisar en N meses;
 - Evaluación de desempeño baja;
-- marca manual de riesgo de fuga (depende de lo que permita la parte legal);
+- marca manual de riesgo de fuga (depende de lo que responda RRHH);
 - Nivel de inglés por debajo del que requiere su Asignación.
 
 **Restricciones ya decididas** (ver [Restricciones legales](01-restricciones-legales.md)):
-- Las alertas se calculan al leer, a partir de reglas versionadas, y solo se guardan los descartes.
-- Las reglas tienen que ser explicables: en España alimentan la ficha algorítmica que se entrega a cada persona y al comité de empresa.
-- El riesgo de fuga queda pendiente de que Legal lo valide (ver [Requisitos de TI y Legal](08-requisitos-de-ti.md)). Si se incluye, es una entidad propia:
-  - valores de una lista cerrada;
-  - tiene caducidad;
-  - se puede desactivar por jurisdicción;
-  - queda fuera de exportes y reportes;
-  - nunca se calcula a partir de otros datos.
+- las alertas sugieren, pero nunca excluyen automáticamente: la decisión es del usuario;
+- las reglas tienen que ser explicables, por si hay que informarlas en España;
+- la marca de riesgo de fuga depende de lo que responda RRHH (ver [Requisitos de TI](08-requisitos-de-ti.md)). Si entra, nunca se calcula a partir de otros datos.

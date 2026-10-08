@@ -36,26 +36,12 @@ Para cada jurisdicción:
 
 ## Answer
 
-El detalle completo, con fuentes, está en la rama `research/restricciones-legales`, archivo `research/restricciones-legales.md` (se lee con `git show research/restricciones-legales:research/restricciones-legales.md`). No es asesoría legal: la lista "Validar con Legal/DPO" está en ese documento.
+Reencuadrada el 2026-10-08, tras una aclaración del usuario: la herramienta solo ordena datos a los que ya accede, en la misma máquina y para los mismos fines.
 
-- **Responsable del tratamiento**: la empresa, es decir, cada entidad empleadora, no el Global Tech Director. La herramienta tiene que registrarse como un tratamiento de la empresa. Hasta cumplir las precondiciones, **solo se usan datos ficticios**.
-- **Estándar**: RGPD para las ~150 personas, más los requisitos de cada país:
-  - Colombia: autorización previa.
-  - Argentina: no admite interés legítimo.
-  - Ecuador, el más exigente: exige DPO, cubre decisiones "parcialmente" automatizadas y pide cláusulas RIPD para transferir.
-  - Chile: la Ley 21.719 rige desde el 1-dic-2026.
-- **Qué se puede guardar**:
-  - Tal cual: Rol, Seniority, Track, CMS y Asignaciones.
-  - Con condiciones: Nivel de inglés, última Evaluación de desempeño, Plan de carrera y alertas basadas en reglas.
-  - Bloqueada hasta que Legal la valide: la marca manual de riesgo de fuga.
-- **Evaluación de desempeño y alertas**: ordenan o marcan, pero **nunca excluyen automáticamente** a nadie (TJUE C-634/21).
-- **España**: el RD 723/2026 y el art. 64.4.d del ET obligan a entregar una ficha algorítmica, a cada persona y al comité de empresa, antes del primer uso con datos de España. Por eso las reglas de alertas y de ordenamiento tienen que ser explicables y estar documentadas.
-- **Datos que no se guardan**: texto libre que pueda revelar categorías especiales, y campos de salario, salud, sindicato o familia.
-- **Impacto en el modelo**:
-  - país y entidad empleadora obligatorios para cada persona;
-  - el riesgo de fuga como entidad propia: lista cerrada de valores, caducidad, desactivable por jurisdicción y excluida de exportes y reportes;
-  - alertas calculadas al leer, a partir de reglas versionadas;
-  - fecha de salida con purga;
-  - export y borrado de una persona;
-  - log de accesos cuando haya hosting.
-- **Precondiciones antes de cargar datos reales**: la lista de 9 pasos está en el documento. Son trámites con Legal y el DPO, fuera del alcance de la spec.
+- **La herramienta no cambia la base legal.** La ley mira qué datos se tratan y para qué, no con qué herramienta. Pasar de planillas a una app local, con los mismos datos y los mismos fines, no crea un tratamiento nuevo: la empresa ya es hoy la responsable de esos datos. No hace falta registrar nada ni trabajar con datos ficticios.
+- **Lo nuevo, que hay que cuidar en el diseño:**
+  - **Datos que se crean.** La marca de riesgo de fuga es información nueva sobre una persona, y cualquiera puede pedir ver lo que hay registrado sobre sí. Criterio: no registrar nada que la persona no debería poder leer. Antes de incluirla, se confirma con RRHH.
+  - **Reglas que ordenan o filtran gente.** Son las alertas y el orden del staffing por evaluación. Sugieren, pero nunca excluyen automáticamente: la decisión es del usuario. En España, el art. 64.4.d del ET (y, según la investigación, el RD 723/2026) cubre los algoritmos que influyen en decisiones laborales. Hay que consultar a RRHH antes de usarlas con gente de España.
+  - **Concentración.** La base va en un disco cifrado, fuera del repo y fuera de nubes personales.
+- **Higiene de datos**: sin texto libre con información sensible (salud, sindicato, familia, salario), y con la posibilidad de exportar o borrar a una persona.
+- **Cuándo importa el análisis completo**: al pasar a hosting de TI y a multiusuario, la herramienta se convierte en un sistema nuevo de la empresa. Ahí aplican las obligaciones por país del documento de investigación: rama `research/restricciones-legales`, archivo `research/restricciones-legales.md`. No es asesoría legal.
