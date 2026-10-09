@@ -22,3 +22,8 @@ El diseño no debe impedir que más adelante cada Tech Manager cargue lo suyo.
 - la clave para no duplicar es el email corporativo;
 - la Región no se importa: se deriva del manager. La Ciudad es opcional;
 - cada persona entra con un Movimiento de Ingreso, con su fecha de entrada a la Dirección. Falta decidir qué se usa si las planillas solo traen la fecha de ingreso a la empresa.
+
+**Decidido en [Modelo de Proyecto, Asignación y Necesidad](03-proyecto-asignacion-necesidad.md)**:
+- además de las Personas se cargan Clientes, Proyectos (con Región y Estado), Asignaciones, Necesidades e Indisponibilidades;
+- falta decidir si se importa el historial de Asignaciones o solo las vigentes;
+- corregir un error de carga edita en el lugar; un cambio con fecha abre una Asignación nueva.

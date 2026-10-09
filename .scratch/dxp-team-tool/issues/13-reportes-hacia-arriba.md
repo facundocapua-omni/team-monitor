@@ -12,7 +12,7 @@ Map: [map.md](../map.md)
 Candidatos:
 
 - headcount por Región, Rol, Seniority, Track y CMS;
-- utilización y bench;
+- Utilización y Dojo;
 - distribución del Nivel de inglés;
 - huecos de contratación;
 - cobertura de los Planes de carrera.
@@ -26,3 +26,8 @@ Entra solo si sale casi gratis de los mismos datos.
 
 **Decidido en [Modelo de Persona](02-modelo-de-persona.md)**:
 - los Movimientos ya guardan el historial de Ingresos, Bajas, Rol, Seniority, Track y manager, así que la evolución del headcount y la rotación salen casi gratis.
+
+**Decidido en [Modelo de Proyecto, Asignación y Necesidad](03-proyecto-asignacion-necesidad.md)**:
+- Dojo, Utilización y la parte no facturable usan la misma población (Developers y Tech Leaders) y suman su Capacidad, así que se pueden mostrar juntos;
+- las Asignaciones cerradas se conservan, así que la evolución de la Utilización y el Dojo también sale casi gratis;
+- también se puede agrupar por Cliente y Proyecto, y separar las Asignaciones entre Regiones.

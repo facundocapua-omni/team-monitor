@@ -98,3 +98,52 @@ _Avoid_: KPI, performance score
 **Delivery KPI**:
 Una de las cinco métricas de entrega del handbook. Se mide por equipo y nunca se atribuye a un Developer; cuenta en la evaluación de Tech Leaders y Tech Managers.
 _Avoid_: KPI de rendimiento, métrica individual
+
+## Staffing
+
+**Cliente**:
+Para quién se hace un Proyecto. La propia empresa es un Cliente más, y sus proyectos son los internos.
+_Avoid_: cuenta, account
+
+**Proyecto**:
+Trabajo para un Cliente que pertenece a una Región: la que lo vendió y lo gestiona, cuyo Tech Manager decide su staffing. La Región del Proyecto se carga y no cambia según quién lo lidere. Su Estado es Preventa, En curso, Cerrado o Perdido. Puede trabajar con uno o más CMS. No tiene fechas propias: su duración es la de sus Asignaciones y Necesidades.
+_Avoid_: cuenta, iniciativa
+
+**Preventa**:
+El Estado de un Proyecto que todavía no se ganó. Si se gana, el mismo Proyecto pasa a En curso con sus Necesidades y Asignaciones, que se confirman una por una. Si se pierde, sus Asignaciones tentativas y sus Necesidades abiertas se cierran.
+_Avoid_: oportunidad, pipeline
+
+**Facturable**:
+Si el Cliente paga el tiempo de una Asignación. Cada Proyecto tiene un valor por defecto, y una Asignación puede no ser facturable dentro de un Proyecto facturable, por ejemplo en shadowing o en garantía.
+
+**Asignación**:
+La dedicación de una Persona a un Proyecto: un porcentaje fijo desde una fecha de inicio, con fecha de fin opcional. Si la dedicación cambia, termina esa Asignación y empieza otra. Es **Tentativa** (una reserva blanda) o **Confirmada**; en un Proyecto en Preventa solo puede ser Tentativa. Cualquier Rol puede tener Asignaciones, pero las de un Tech Manager, un Expert o un Tech Director se distinguen de las de Developers y Tech Leaders. Si la persona tiene una Baja, la parte de la Asignación posterior a esa fecha queda señalada y deja de contar.
+_Avoid_: allocation, imputación
+
+**Función**:
+Lo que hace una persona en una Asignación, o lo que pide una Necesidad: Liderazgo técnico o Desarrollo. No depende del Rol: un Developer puede tener una Asignación de Liderazgo técnico, y la de un Tech Manager es un rescate.
+_Avoid_: rol en el proyecto
+
+**Asignación entre Regiones**:
+La Asignación de una persona a un Proyecto de otra Región. Para el Dojo y la Utilización cuenta en la Región de la persona; para la demanda, en la del Proyecto.
+_Avoid_: préstamo, cross-region
+
+**Necesidad**:
+Una posición que un Proyecto necesita cubrir con una sola persona: Función, Track, rango de Seniority, dedicación y fechas; opcionalmente, CMS, Nivel de inglés mínimo y Países admitidos. Siempre pertenece a un Proyecto. Está Abierta, Cubierta (por la Asignación que la cubre, tentativa o confirmada) o Cancelada. Puede cubrirse con alguien de la Dirección o con una contratación.
+_Avoid_: vacante, posición abierta, requerimiento
+
+**Capacidad**:
+La dedicación que una persona puede dar a Asignaciones en una fecha: 100% menos sus Indisponibilidades. Si sus Asignaciones confirmadas la superan, la persona está sobreasignada; eso se muestra, no se bloquea.
+_Avoid_: disponibilidad, horas
+
+**Indisponibilidad**:
+Un periodo en el que una persona tiene menos Capacidad, con fecha de inicio, fin opcional y un porcentaje. Cubre licencias, jornadas reducidas y externos a tiempo parcial. Nunca registra el motivo, que suele ser de salud o de familia.
+_Avoid_: ausencia, licencia, vacaciones
+
+**Dojo**:
+La parte de la Capacidad de un Developer o un Tech Leader que no ocupa ninguna Asignación confirmada. Ellos son quienes pueden ser facturables, sin excepciones: Trainees, recién ingresados y externos incluidos. Nadie entra al Dojo: se está en él mientras haya Capacidad sin asignar. La que ocupan las Asignaciones tentativas se muestra aparte, como reservada. Un proyecto interno o el shadowing no son Dojo: se ven en la Utilización.
+_Avoid_: bench, bench vendible, capacidad facturable
+
+**Utilización**:
+La parte de la Capacidad de los Developers y los Tech Leaders cubierta por Asignaciones confirmadas y facturables. Usa la misma población que el Dojo. Se mira en una fecha o como promedio de un mes.
+_Avoid_: ocupación, billability
