@@ -92,8 +92,16 @@ Nivel de una persona en la escala MCER (A1–C2), evaluado por el profesor de in
 _Avoid_: English level, nivel de idioma
 
 **Evaluación de desempeño**:
-Resultado periódico e individual del rendimiento de una persona. La herramienta usa la última para decidir el staffing.
-_Avoid_: KPI, performance score
+El resultado anual e individual del rendimiento de una persona empleada, que pone su manager directo. Su resultado es la Calificación final, de 1 a 5, y puede marcarla como Key player. Se conservan todas, cada una con su ciclo, y vale la última; si no es del ciclo más reciente, se ve como de un ciclo anterior. Una persona sin evaluar no es lo mismo que una con resultado bajo. Los externos no tienen: su líder les da feedback, que no se registra. En el staffing se muestra como un dato más, pero no entra en ningún orden ni filtro calculado: quien decide es el usuario.
+_Avoid_: KPI, performance score, nota
+
+**Calificación final**:
+El resultado de una Evaluación de desempeño, de 1 a 5 con decimales. Es lo único que se guarda del cálculo: ni las competencias ni los componentes que la forman.
+_Avoid_: nota, puntaje, score
+
+**Key player**:
+Marca que la Evaluación de desempeño de un ciclo pone a una persona considerada clave. Vale para ese ciclo, como la Calificación final.
+_Avoid_: talento clave, high performer
 
 **Delivery KPI**:
 Una de las cinco métricas de entrega del handbook. Se mide por equipo y nunca se atribuye a un Developer; cuenta en la evaluación de Tech Leaders y Tech Managers.

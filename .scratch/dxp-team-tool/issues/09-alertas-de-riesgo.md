@@ -2,7 +2,7 @@
 
 Type: grilling
 Status: open
-Blocked by: 01, 02, 03, 04, 06
+Blocked by: 06
 Map: [map.md](../map.md)
 
 ## Question
@@ -37,3 +37,6 @@ Candidatas:
 - el Nivel de inglés requerido está en la Necesidad: la alerta compara a la persona con la Necesidad que cubre su Asignación. Una Asignación sin Necesidad no tiene requisito;
 - las Asignaciones entre Regiones solo se marcan; no son una alerta;
 - solo Developers y Tech Leaders pueden estar en Dojo.
+
+**Decidido en [Evaluación de desempeño](04-evaluacion-de-desempeno.md)**:
+- la Calificación final va de 1 a 5, una por ciclo anual, y los externos no tienen. En el staffing no entra en ningún orden ni filtro calculado. Falta decidir si la candidata "Evaluación de desempeño baja" sobrevive como alerta (sería una marca en la bandeja, no un orden) y con qué umbral; una persona sin evaluar no cuenta como baja.
