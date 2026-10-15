@@ -51,3 +51,5 @@ Resuelta el 2026-10-08 en una sesión de grilling. Los términos nuevos (Persona
 - **Ingreso**: cuenta la entrada a la Dirección, no a la empresa.
 - **Baja**: es voluntaria o involuntaria, sin un motivo en texto libre, y no borra a la persona. Si alguien con gente a cargo se va, nada se bloquea: sus reportes aparecen como "reportan a alguien que se va" desde que se carga la Baja, y como "sin manager activo" después de la fecha. No hay retención automática en el MVP; solo se borra a pedido. La política de retención llega con el hosting de TI.
 - **Externos**: se cargan como un Developer, con manager (el Tech Leader que los guía), Seniority equivalente en la escala del handbook, Track y CMS principal. El fin de contrato es una Baja.
+
+**Actualización (2026-10-15)**: el término CMS pasó a Plataforma, y CMS principal a Plataforma principal; ver [Skills](05-skills.md).

@@ -40,3 +40,7 @@ Candidatas:
 
 **Decidido en [Evaluación de desempeño](04-evaluacion-de-desempeno.md)**:
 - la Calificación final va de 1 a 5, una por ciclo anual, y los externos no tienen. En el staffing no entra en ningún orden ni filtro calculado. Falta decidir si la candidata "Evaluación de desempeño baja" sobrevive como alerta (sería una marca en la bandeja, no un orden) y con qué umbral; una persona sin evaluar no cuenta como baja.
+
+**Decidido en [Skills](05-skills.md)**:
+- candidatas nuevas: concentración de riesgo en una Plataforma (por ejemplo, pocas personas con nivel Referente o Autónomo en una Región) y una Skill con la revisión vencida. Los umbrales se fijan acá;
+- la Plataforma de un Proyecto es obligatoria en los externos En curso y en Preventa; un Proyecto sin ella podría ser una alerta de datos faltantes.

@@ -27,3 +27,7 @@ El diseño no debe impedir que más adelante cada Tech Manager cargue lo suyo.
 - además de las Personas se cargan Clientes, Proyectos (con Región y Estado), Asignaciones, Necesidades e Indisponibilidades;
 - falta decidir si se importa el historial de Asignaciones o solo las vigentes;
 - corregir un error de carga edita en el lugar; un cambio con fecha abre una Asignación nueva.
+
+**Decidido en [Skills](05-skills.md)**:
+- además de lo anterior se cargan las Skills (Plataforma, Nivel de dominio y fecha de revisión) y las Plataformas de cada Proyecto, que son obligatorias en los externos En curso y en Preventa;
+- la Experiencia en Plataforma se calcula con las Asignaciones cargadas, así que importar su historial la mejora desde el primer día; sin él, el dato es pobre al principio. Esto pesa en la decisión de si se importa el historial de Asignaciones o solo las vigentes.

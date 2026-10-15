@@ -11,7 +11,7 @@ Map: [map.md](../map.md)
 
 Candidatos:
 
-- headcount por Región, Rol, Seniority, Track y CMS;
+- headcount por Región, Rol, Seniority, Track y Plataforma;
 - Utilización y Dojo;
 - distribución del Nivel de inglés;
 - huecos de contratación;
@@ -31,3 +31,6 @@ Entra solo si sale casi gratis de los mismos datos.
 - Dojo, Utilización y la parte no facturable usan la misma población (Developers y Tech Leaders) y suman su Capacidad, así que se pueden mostrar juntos;
 - las Asignaciones cerradas se conservan, así que la evolución de la Utilización y el Dojo también sale casi gratis;
 - también se puede agrupar por Cliente y Proyecto, y separar las Asignaciones entre Regiones.
+
+**Decidido en [Skills](05-skills.md)**:
+- el headcount por Plataforma usa la Plataforma principal. Hay una segunda vista posible, por Skill y Nivel de dominio, que sale de los mismos datos.

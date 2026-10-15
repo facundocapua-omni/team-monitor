@@ -24,3 +24,7 @@ Un prototipo rápido para reaccionar sobre:
 - cerrar un Proyecto pide una fecha de cierre; perderlo cierra sus tentativas y Necesidades abiertas;
 - marcas visibles: Asignaciones de Roles de liderazgo, Asignaciones entre Regiones, Asignaciones que siguen después de una Baja, sobreasignación;
 - una Necesidad está Abierta, Cubierta (enlazada a su Asignación) o Cancelada.
+
+**Decidido en [Skills](05-skills.md)**:
+- el perfil de una persona muestra sus Skills con Nivel de dominio, fecha de revisión (vencida si pasó un año) y la Experiencia en Plataforma calculada;
+- al buscar candidatos para una Necesidad se ve a todos con una marca de qué requisitos cumple cada uno, sin ocultar a nadie; el orden de la lista queda para este prototipo y no puede usar la Evaluación de desempeño.

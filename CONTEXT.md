@@ -79,13 +79,25 @@ _Avoid_: grade, career level, categoría
 La disciplina de un Developer: Frontend, Backend, DevOps o QA. Cada Track tiene su roadmap y su career path.
 _Avoid_: especialidad, disciplina, perfil
 
-**CMS**:
-Plataforma de las que trabaja la Dirección: Optimizely Cloud, Contentful, AEM EDS o AEM Traditional.
-_Avoid_: plataforma, solución, tecnología
+**Plataforma**:
+Una de las seis tecnologías sobre las que trabaja la Dirección, tal como las documenta el handbook: Optimizely Cloud, Contentful, AEM EDS, AEM Traditional, Adobe Commerce PaaS y Adobe Commerce SaaS. Las cuatro primeras son CMS; las de Commerce, no.
+_Avoid_: CMS, solución, tecnología
 
-**CMS principal**:
-El CMS en el que se especializa una persona; es el que cuenta en el headcount por CMS. Los otros CMS que maneja forman parte de sus skills.
-_Avoid_: CMS actual
+**Plataforma principal**:
+La Plataforma en la que se especializa una persona; es la que cuenta en el headcount por Plataforma. Es obligatoria en Developers y Tech Leaders, y opcional en el resto. Las demás Plataformas que maneja forman parte de sus Skills.
+_Avoid_: CMS principal, CMS actual
+
+**Skill**:
+Una Plataforma que maneja una Persona, con su Nivel de dominio y la fecha de su última revisión. La Plataforma principal también es una Skill. Cualquier Persona puede tener Skills, incluidos Experts, Tech Managers y externos. Vale solo la última revisión; la progresión de una persona es tema de su Plan de carrera.
+_Avoid_: competencia, habilidad, conocimiento
+
+**Nivel de dominio**:
+Lo que una persona puede hacer en un Proyecto de una Plataforma: **Conoce** (apoya con la guía de otra persona), **Autónomo** (trabaja sola en un Proyecto de esa Plataforma) o **Referente** (lidera técnicamente o resuelve problemas a otros). Lo propone el manager directo y se revisa una vez al año, junto con la Evaluación de desempeño; si la revisión es más vieja, se ve vencida. Es independiente de la Seniority.
+_Avoid_: nivel de skill, expertise
+
+**Experiencia en Plataforma**:
+Los meses que una persona lleva en Asignaciones confirmadas a Proyectos que declaran una Plataforma, con cualquier Función. Se calcula, no se carga. Es evidencia para quien propone y revisa el Nivel de dominio, y no lo cambia sola. Solo cuenta lo que está en la herramienta: lo anterior a la carga inicial no existe en el dato.
+_Avoid_: años de experiencia, antigüedad en la tecnología
 
 **Nivel de inglés**:
 Nivel de una persona en la escala MCER (A1–C2), evaluado por el profesor de inglés interno. Vale la última evaluación; una persona sin evaluar no es lo mismo que una A1.
@@ -114,7 +126,7 @@ Para quién se hace un Proyecto. La propia empresa es un Cliente más, y sus pro
 _Avoid_: cuenta, account
 
 **Proyecto**:
-Trabajo para un Cliente que pertenece a una Región: la que lo vendió y lo gestiona, cuyo Tech Manager decide su staffing. La Región del Proyecto se carga y no cambia según quién lo lidere. Su Estado es Preventa, En curso, Cerrado o Perdido. Puede trabajar con uno o más CMS. No tiene fechas propias: su duración es la de sus Asignaciones y Necesidades.
+Trabajo para un Cliente que pertenece a una Región: la que lo vendió y lo gestiona, cuyo Tech Manager decide su staffing. La Región del Proyecto se carga y no cambia según quién lo lidere. Su Estado es Preventa, En curso, Cerrado o Perdido. Declara una o más Plataformas (obligatorio en los Proyectos En curso y en Preventa de Clientes externos; lo interno puede declarar "ninguna"). No tiene fechas propias: su duración es la de sus Asignaciones y Necesidades.
 _Avoid_: cuenta, iniciativa
 
 **Preventa**:
@@ -137,7 +149,7 @@ La Asignación de una persona a un Proyecto de otra Región. Para el Dojo y la U
 _Avoid_: préstamo, cross-region
 
 **Necesidad**:
-Una posición que un Proyecto necesita cubrir con una sola persona: Función, Track, rango de Seniority, dedicación y fechas; opcionalmente, CMS, Nivel de inglés mínimo y Países admitidos. Siempre pertenece a un Proyecto. Está Abierta, Cubierta (por la Asignación que la cubre, tentativa o confirmada) o Cancelada. Puede cubrirse con alguien de la Dirección o con una contratación.
+Una posición que un Proyecto necesita cubrir con una sola persona: Función, Track, rango de Seniority, dedicación y fechas; opcionalmente, una Plataforma con su Nivel de dominio mínimo (Autónomo si no se indica), Nivel de inglés mínimo y Países admitidos. Siempre pertenece a un Proyecto. Está Abierta, Cubierta (por la Asignación que la cubre, tentativa o confirmada) o Cancelada. Puede cubrirse con alguien de la Dirección o con una contratación.
 _Avoid_: vacante, posición abierta, requerimiento
 
 **Capacidad**:

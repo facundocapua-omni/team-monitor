@@ -9,7 +9,7 @@ Tickets: [issues/](issues/)
 
 ## Notes
 
-- **Dominio**: glosario en [`CONTEXT.md`](../../CONTEXT.md). La fuente canónica de roles, Seniority, Tracks, CMS y Delivery KPIs es el handbook en `../structure/src/content/docs/` (sitio local: http://localhost:4322/).
+- **Dominio**: glosario en [`CONTEXT.md`](../../CONTEXT.md). La fuente canónica de roles, Seniority, Tracks, Plataformas y Delivery KPIs es el handbook en `../structure/src/content/docs/` (sitio local: http://localhost:4322/).
 - **Skills**: en cada ticket de decisión, `grilling` + `domain-modeling`; actualizar `CONTEXT.md` cuando un término se resuelve.
 - **Idioma**: la conversación es en español.
 - **Usuario**: solo el Tech Director de Americas, que cumple de hecho la función de Global Tech Director (el puesto no está formalizado). El modelo no debe impedir permisos por Región ni que más adelante cada Tech Manager cargue lo suyo.
@@ -29,6 +29,7 @@ Tickets: [issues/](issues/)
 - [Modelo de Persona](issues/02-modelo-de-persona.md): toda la Línea de reporte, externos incluidos, identificada por email corporativo. La Región se deriva del manager y la Ubicación (País y Ciudad) va aparte. Rol y Seniority van por separado. El historial son Movimientos con fecha efectiva (Ingreso, Baja, Rol, Seniority, Track, manager), que pueden ser futuros.
 - [Modelo de Proyecto, Asignación y Necesidad](issues/03-proyecto-asignacion-necesidad.md): el Proyecto pertenece a un Cliente (lo interno es la propia empresa), tiene Región cargada y Estado (Preventa, En curso, Cerrado, Perdido). Las Asignaciones son tramos de dedicación fija, tentativos o confirmados, con Función (Liderazgo técnico o Desarrollo), y cualquier Rol puede tenerlas. Una Necesidad es una posición en un Proyecto. La Capacidad descuenta las Indisponibilidades, que no llevan motivo. El bench se llama Dojo: Developers y Tech Leaders sin Asignación confirmada.
 - [Evaluación de desempeño](issues/04-evaluacion-de-desempeno.md): el resultado anual es una Calificación final de 1 a 5 que pone el manager directo, con marca opcional de Key player. Se conservan todas por ciclo y vale la última. Los externos no tienen. En el staffing es un dato visible: no entra en ningún orden ni filtro calculado.
+- [Skills de una persona](issues/05-skills.md): la Plataforma (las seis del handbook, que reemplaza a CMS) es la unidad. Cada Skill es una Plataforma con Nivel de dominio (Conoce, Autónomo, Referente) propuesto por el manager y revisado una vez al año. La Experiencia en Plataforma se calcula de las Asignaciones y es solo evidencia. Cualquier Persona tiene Skills; el Proyecto declara sus Plataformas y la Necesidad pide una con nivel mínimo. Sin certificaciones.
 
 ## Not yet specified
 
