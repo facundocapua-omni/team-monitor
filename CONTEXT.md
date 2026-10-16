@@ -180,6 +180,18 @@ _Avoid_: bench, bench vendible, capacidad facturable
 La parte de la Capacidad de los Developers y los Tech Leaders cubierta por Asignaciones confirmadas y facturables. Usa la misma población que el Dojo. Se mira en una fecha o como promedio de un mes.
 _Avoid_: ocupación, billability
 
+**Hueco**:
+La demanda que la oferta no cubre en un grupo (Región, Track, Plataforma y Banda de Seniority), medida en FTE, o sea la dedicación (100% = 1). La demanda son las Necesidades Abiertas; la oferta es la Capacidad libre de Developers y Tech Leaders, más lo que liberan las Asignaciones que terminan y los Ingresos futuros, menos las Bajas anunciadas y las Indisponibilidades. La Capacidad reservada por una Asignación tentativa sale de la oferta, y la Necesidad que cubre sale de la demanda: ese monto se muestra aparte, como pendiente de confirmar. La demanda de Preventa se muestra aparte de la de los Proyectos En curso. No es un puesto por contratar: contratar es una decisión del usuario.
+_Avoid_: vacante, headcount faltante, déficit
+
+**Banda de Seniority**:
+Agrupación de la escala para medir Huecos: Junior (Trainee, Junior y Junior Advanced), Semi Senior (Semi Senior y Semi Senior Advanced), Senior (Senior Level 1 y 2) y Tech Leader (Senior Level 3). Una Necesidad cuenta en la banda de su Seniority mínima.
+_Avoid_: nivel, grade
+
+**Anticipación de contratación**:
+El tiempo que tarda una búsqueda en traer a alguien (8 semanas por defecto). Un Hueco que empieza en una fecha D tiene como fecha límite "abrir la búsqueda antes de D menos esa anticipación"; si ya pasó, se marca como urgente.
+_Avoid_: lead time, time to hire
+
 ## Alertas
 
 **Alerta**:

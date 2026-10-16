@@ -89,3 +89,5 @@ Resuelta el 2026-10-16 en una sesión de grilling. Los términos (Alerta, Regla,
 - Evaluación de desempeño baja: es un dato visible y no un filtro calculado ([Evaluación de desempeño](04-evaluacion-de-desempeno.md)).
 - Marca de riesgo de fuga: espera la respuesta de RRHH ([Requisitos de TI](08-requisitos-de-ti.md)); si entra, será manual y nunca calculada.
 - Las Asignaciones entre Regiones solo se marcan, no son una Alerta.
+
+**Nota (2026-10-16, de [Planificación de contratación](10-planificacion-de-contratacion.md))**: las 8 semanas de la Regla "Necesidad Abierta cerca de su inicio" son la misma Anticipación de contratación de la vista de Huecos; es un único valor en la pantalla Reglas.

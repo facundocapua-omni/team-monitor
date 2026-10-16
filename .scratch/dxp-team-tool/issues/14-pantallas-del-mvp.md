@@ -2,7 +2,7 @@
 
 Type: prototype
 Status: open
-Blocked by: 10, 13
+Blocked by: 13
 Map: [map.md](../map.md)
 
 ## Question
@@ -39,3 +39,9 @@ Un prototipo rápido para reaccionar sobre:
 - una pantalla Reglas lista cada Regla en lenguaje simple, con interruptor y valores editables;
 - cada Alerta muestra qué Regla la generó y con qué datos, y se puede silenciar (30 días por defecto o sin fecha, nota opcional), por persona o Proyecto, o por familia entera;
 - las Alertas con una Asignación tentativa a continuación llevan la leyenda "con reserva tentativa".
+
+**Decidido en [Planificación de contratación](10-planificacion-de-contratacion.md)**:
+- la vista de Huecos tiene una ventana elegible (4, 8, 12 o 26 semanas, con 12 por defecto), muestra los Huecos por grupo y por mes en FTE, con la demanda firme y la de Preventa en columnas aparte, el monto pendiente de confirmar y, por Hueco, la fecha límite para abrir una búsqueda (urgente si ya pasó);
+- una fila "Cualquier Plataforma" aparte para las Necesidades sin Plataforma, y una lista de los líderes sobre su span, con enlace a su Alerta;
+- cada Necesidad muestra cuántos candidatos disponibles tiene;
+- un botón exporta los Huecos a Excel, sin datos de personas.

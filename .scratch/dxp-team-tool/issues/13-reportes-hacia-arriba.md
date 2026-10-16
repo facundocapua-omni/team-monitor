@@ -37,3 +37,6 @@ Entra solo si sale casi gratis de los mismos datos.
 
 **Decidido en [Plan de carrera](06-plan-de-carrera.md)**:
 - la cobertura de los Planes de carrera (cuántos Developers y Tech Leaders empleados tienen un plan En curso, y cuántos están al día con sus Revisiones) sale de los mismos datos. Como las Revisiones tienen historial, la evolución de esa cobertura sale casi gratis.
+
+**Decidido en [Planificación de contratación](10-planificacion-de-contratacion.md)**:
+- los huecos de contratación ya tienen su cálculo (Hueco por Región, Track, Plataforma y Banda de Seniority, en FTE, con la demanda firme y la de Preventa aparte), y su export a Excel. Este ticket solo decide si entran en un reporte hacia arriba con otro formato; no hace falta recalcularlos.
