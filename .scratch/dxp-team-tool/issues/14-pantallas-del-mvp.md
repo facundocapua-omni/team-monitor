@@ -2,7 +2,7 @@
 
 Type: prototype
 Status: open
-Blocked by: 03, 09, 10, 13
+Blocked by: 10, 13
 Map: [map.md](../map.md)
 
 ## Question
@@ -33,3 +33,9 @@ Un prototipo rápido para reaccionar sobre:
 - el perfil de una persona muestra su Plan de carrera (objetivo, fecha objetivo, foco e ítems con su estado actual) y el historial de Revisiones, con una marca si la última pasó los 3 meses;
 - cargar una Revisión es una acción corta: fecha, nota y el estado de cada ítem de foco;
 - al cargar un Movimiento que coincide con el objetivo, la pantalla ofrece cerrar el plan como Logrado y abrir el siguiente.
+
+**Decidido en [Alertas de riesgo](09-alertas-de-riesgo.md)**:
+- la bandeja agrupa las Alertas por familia (Staffing, Estructura, Personas), las ordena por la fecha en que empiezan a importar y no tiene niveles de severidad; el perfil de la persona o del Proyecto muestra las suyas;
+- una pantalla Reglas lista cada Regla en lenguaje simple, con interruptor y valores editables;
+- cada Alerta muestra qué Regla la generó y con qué datos, y se puede silenciar (30 días por defecto o sin fecha, nota opcional), por persona o Proyecto, o por familia entera;
+- las Alertas con una Asignación tentativa a continuación llevan la leyenda "con reserva tentativa".

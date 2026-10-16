@@ -18,3 +18,5 @@ Checklist para el usuario (se puede hacer en cualquier momento):
 - [ ] Guardarlos en una carpeta local **fuera de este repo** y anotar acá, para cada uno, la ruta, el formato y las columnas. Nunca commitear datos reales.
 
 Se resuelve cuando las fuentes están identificadas y sus columnas quedan registradas en la respuesta.
+
+Nota (de [Alertas de riesgo](09-alertas-de-riesgo.md)): al reunirlas, conviene ver si traen la fecha de fin de las Asignaciones, el manager de cada persona y las Plataformas de los Proyectos, porque las Alertas de Staffing y Estructura dependen de esos datos.

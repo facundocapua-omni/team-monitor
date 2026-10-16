@@ -21,3 +21,6 @@ El stack ya está decidido: Next.js, Tailwind, shadcn/ui, SQLite + Drizzle, Shee
 
 **Decidido en [Modelo de Persona](02-modelo-de-persona.md)**:
 - la historia de una Persona son Movimientos con fecha efectiva, que pueden ser futuros, y su estado en una fecha se reconstruye a partir de ellos. Esto pesa en el esquema de datos y en las consultas.
+
+**Decidido en [Alertas de riesgo](09-alertas-de-riesgo.md)**:
+- las Alertas se calculan en vivo y no se guardan. Lo único que se persiste son los Silencios (regla, persona o Proyecto, fecha de fin opcional y nota) y los valores de las Reglas, así que el cálculo de las consultas tiene que ser suficientemente rápido para ~150 personas sin una tabla de alertas.

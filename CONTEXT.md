@@ -179,3 +179,17 @@ _Avoid_: bench, bench vendible, capacidad facturable
 **Utilización**:
 La parte de la Capacidad de los Developers y los Tech Leaders cubierta por Asignaciones confirmadas y facturables. Usa la misma población que el Dojo. Se mira en una fecha o como promedio de un mes.
 _Avoid_: ocupación, billability
+
+## Alertas
+
+**Alerta**:
+Un aviso de que una Regla se cumple hoy sobre una persona, una Asignación, un Proyecto o una Necesidad. Se calcula con los datos del momento y no se guarda: desaparece sola cuando el dato se arregla. Sugiere, nunca excluye ni ordena a nadie. Se ve en una bandeja, agrupada por familia (Staffing, Estructura, Personas) y ordenada por la fecha en que empieza a importar, y en el perfil de la persona o del Proyecto. No hay niveles de severidad. Las personas con Baja pasada, las de Ingreso futuro antes de su fecha y, en las reglas de Dojo, las de Indisponibilidad total no generan Alertas.
+_Avoid_: notificación, flag, riesgo
+
+**Regla**:
+La condición, en lenguaje simple, que genera un tipo de Alerta, con sus valores (por ejemplo, "una Asignación termina en menos de 6 semanas y no hay otra a continuación") y los Roles a los que aplica. Es una sola para toda la Dirección, no una por Región. Se lista en una pantalla donde se puede activar, desactivar y cambiar sus valores, de modo que cada Alerta se pueda explicar. Una Alerta muestra qué Regla la generó y con qué datos.
+_Avoid_: umbral, política, criterio
+
+**Silencio**:
+La forma de descartar una Alerta: se silencia una Regla para una persona o Proyecto hasta una fecha (30 días por defecto) o sin fecha, con una nota opcional que nunca lleva motivos sensibles. Si vence y la condición sigue, la Alerta vuelve. También se puede silenciar una familia entera de Reglas, por ejemplo en la carga inicial.
+_Avoid_: descartar, ignorar, snooze
