@@ -192,6 +192,10 @@ _Avoid_: nivel, grade
 El tiempo que tarda una búsqueda en traer a alguien (8 semanas por defecto). Un Hueco que empieza en una fecha D tiene como fecha límite "abrir la búsqueda antes de D menos esa anticipación"; si ya pasó, se marca como urgente.
 _Avoid_: lead time, time to hire
 
+**Rotación**:
+Las Bajas de un período sobre el headcount medio de ese período, con las voluntarias y las involuntarias separadas. Se calcula de los Movimientos; no se carga.
+_Avoid_: churn, attrition, turnover
+
 ## Alertas
 
 **Alerta**:

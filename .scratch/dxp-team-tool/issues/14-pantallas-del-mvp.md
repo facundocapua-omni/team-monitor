@@ -2,7 +2,7 @@
 
 Type: prototype
 Status: open
-Blocked by: 13
+Blocked by: —
 Map: [map.md](../map.md)
 
 ## Question
@@ -45,3 +45,8 @@ Un prototipo rápido para reaccionar sobre:
 - una fila "Cualquier Plataforma" aparte para las Necesidades sin Plataforma, y una lista de los líderes sobre su span, con enlace a su Alerta;
 - cada Necesidad muestra cuántos candidatos disponibles tiene;
 - un botón exporta los Huecos a Excel, sin datos de personas.
+
+**Decidido en [Reportes hacia arriba](13-reportes-hacia-arriba.md)**:
+- los reportes son una página de resumen por Región, más una vista global, con siete bloques (headcount, Utilización y Dojo, Huecos, Rotación, Nivel de inglés, cobertura de Planes de carrera y cobertura de Plataformas);
+- cada bloque se ve en una fecha elegible (hoy por defecto) y, para headcount, Utilización, Dojo y rotación, como una serie mensual de los últimos 12 meses;
+- la página exporta a Excel, con una hoja por bloque, y solo lleva agregados, nunca datos de una persona.

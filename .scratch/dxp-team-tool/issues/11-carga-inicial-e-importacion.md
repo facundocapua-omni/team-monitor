@@ -38,3 +38,6 @@ El diseño no debe impedir que más adelante cada Tech Manager cargue lo suyo.
 
 **Decidido en [Alertas de riesgo](09-alertas-de-riesgo.md)**:
 - tras la carga inicial casi todo estará recién creado, así que habrá muchas Alertas de Planes sin Revisión o sin plan; el Silencio por familia existe para esa etapa. Falta decidir si la carga fija las fechas de Revisión y de última revisión de Skills a la fecha de importación.
+
+**Decidido en [Reportes hacia arriba](13-reportes-hacia-arriba.md)**:
+- las series de Utilización, Dojo y la Experiencia en Plataforma solo llegan hasta donde llegue el historial de Asignaciones cargado, así que importarlo (y no solo las vigentes) alarga esas series desde el primer día. El headcount y la rotación dependen de los Movimientos, que arrancan con el Ingreso de cada persona.

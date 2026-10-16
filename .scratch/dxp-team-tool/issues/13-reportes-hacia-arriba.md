@@ -1,7 +1,8 @@
 # Reportes hacia arriba
 
 Type: grilling
-Status: open
+Status: resolved
+Assignee: Facundo Capua
 Blocked by: 02, 03
 Map: [map.md](../map.md)
 
@@ -40,3 +41,22 @@ Entra solo si sale casi gratis de los mismos datos.
 
 **Decidido en [Planificación de contratación](10-planificacion-de-contratacion.md)**:
 - los huecos de contratación ya tienen su cálculo (Hueco por Región, Track, Plataforma y Banda de Seniority, en FTE, con la demanda firme y la de Preventa aparte), y su export a Excel. Este ticket solo decide si entran en un reporte hacia arriba con otro formato; no hace falta recalcularlos.
+
+## Answer
+
+Resuelta el 2026-10-16 en una sesión de grilling. El término nuevo (Rotación) está en [`CONTEXT.md`](../../../CONTEXT.md).
+
+- **Sin destinatario definido**: no se precisó quién lee los reportes ni qué preguntas hace; se diseñó con los candidatos que el handbook y los tickets anticipaban. Todo sale de los mismos datos, así que agregar un bloque después es un cambio chico.
+- **Forma**: una página de resumen por Región y una vista global, no una pantalla por reporte.
+- **Bloques**:
+  1. **Headcount** por Región, Rol, Seniority (con sus Bandas), Track y Plataforma principal, con empleados y externos separados (Vínculo).
+  2. **Utilización y Dojo**, con la parte no facturable, por Región, Track, Plataforma o Seniority; también por Cliente y Proyecto, y con las Asignaciones entre Regiones separadas.
+  3. **Huecos de contratación**: el cálculo y el export de [Planificación de contratación](10-planificacion-de-contratacion.md), sin recalcular.
+  4. **Rotación**: Ingresos y Bajas de un período sobre el headcount medio, con las Bajas voluntarias e involuntarias separadas.
+  5. **Nivel de inglés** por Región y Banda de Seniority, con "sin evaluar" aparte.
+  6. **Cobertura de Planes de carrera**: cuántos tienen un plan En curso y cuántos están al día con sus Revisiones.
+  7. **Cobertura de Plataformas**: personas con nivel Referente y Autónomo por Plataforma y Región.
+- **Tiempo**: una foto en una fecha elegible (hoy por defecto) y una serie mensual de los últimos 12 meses para headcount, Utilización, Dojo y rotación. Se reconstruyen de los Movimientos y las Asignaciones, sin guardar nada nuevo. La serie de Utilización y Dojo solo llega hasta donde llegue el historial de Asignaciones cargado.
+- **Formato**: vista en pantalla y export a Excel con una hoja por bloque (SheetJS). No hay PDF aparte; el navegador ya imprime la vista.
+- **Solo agregados**: números y porcentajes, nunca nombres ni datos de una persona, aunque el grupo sea chico.
+- **Fuera**: las distribuciones de la Evaluación de desempeño, que es un dato individual y no se muestra agregado a terceros.
