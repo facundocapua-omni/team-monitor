@@ -2,7 +2,7 @@
 
 Type: grilling
 Status: open
-Blocked by: 06
+Blocked by: —
 Map: [map.md](../map.md)
 
 ## Question
@@ -44,3 +44,8 @@ Candidatas:
 **Decidido en [Skills](05-skills.md)**:
 - candidatas nuevas: concentración de riesgo en una Plataforma (por ejemplo, pocas personas con nivel Referente o Autónomo en una Región) y una Skill con la revisión vencida. Los umbrales se fijan acá;
 - la Plataforma de un Proyecto es obligatoria en los externos En curso y en Preventa; un Proyecto sin ella podría ser una alerta de datos faltantes.
+
+**Decidido en [Plan de carrera](06-plan-de-carrera.md)**:
+- la candidata "persona sin Plan de carrera, o con el plan sin revisar" pasa a ser dos: un Developer o Tech Leader empleado sin plan En curso, y un plan con la última Revisión de más de 3 meses. Falta fijar la tolerancia. Los externos no tienen plan, así que no entran;
+- un plan con la fecha objetivo pasada y todavía En curso es otra candidata;
+- cuando se carga un Movimiento que coincide con el objetivo, la herramienta sugiere cerrar el plan; eso es una sugerencia, no una alerta.

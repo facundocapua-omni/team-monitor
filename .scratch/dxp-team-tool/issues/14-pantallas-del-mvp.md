@@ -28,3 +28,8 @@ Un prototipo rápido para reaccionar sobre:
 **Decidido en [Skills](05-skills.md)**:
 - el perfil de una persona muestra sus Skills con Nivel de dominio, fecha de revisión (vencida si pasó un año) y la Experiencia en Plataforma calculada;
 - al buscar candidatos para una Necesidad se ve a todos con una marca de qué requisitos cumple cada uno, sin ocultar a nadie; el orden de la lista queda para este prototipo y no puede usar la Evaluación de desempeño.
+
+**Decidido en [Plan de carrera](06-plan-de-carrera.md)**:
+- el perfil de una persona muestra su Plan de carrera (objetivo, fecha objetivo, foco e ítems con su estado actual) y el historial de Revisiones, con una marca si la última pasó los 3 meses;
+- cargar una Revisión es una acción corta: fecha, nota y el estado de cada ítem de foco;
+- al cargar un Movimiento que coincide con el objetivo, la pantalla ofrece cerrar el plan como Logrado y abrir el siguiente.

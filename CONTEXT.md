@@ -115,6 +115,18 @@ _Avoid_: nota, puntaje, score
 Marca que la Evaluación de desempeño de un ciclo pone a una persona considerada clave. Vale para ese ciclo, como la Calificación final.
 _Avoid_: talento clave, high performer
 
+**Plan de carrera**:
+El camino que una persona empleada, Developer o Tech Leader, sigue hacia su próximo paso. Tiene un objetivo (el próximo nivel de Seniority o, desde el nivel 8, la rama Tech Manager o Expert), una fecha objetivo, una nota corta de foco y un Estado: En curso, Logrado, Abandonado o Reemplazado, con su fecha de cierre. Una persona tiene un solo plan En curso; los anteriores se conservan. Los externos no tienen. La herramienta sugiere cerrarlo como Logrado cuando se carga el Movimiento que coincide con el objetivo, pero no lo cierra sola. Un cambio de Track no lo cierra.
+_Avoid_: plan de desarrollo, PDI
+
+**Ítem de roadmap**:
+Un tema del roadmap del handbook para un Track, con su sección (Fundamentals, Going Further o una Plataforma) y su prioridad (Essential, Recommended u Optional). Un Plan de carrera puede elegir unos pocos como foco; puede no tener ninguno. Los de la sección de una Plataforma se ven como evidencia junto a la Skill, sin cambiarla.
+_Avoid_: skill, competencia
+
+**Revisión**:
+Un hecho fechado en un Plan de carrera: la fecha en que el manager y la persona lo repasaron, con una nota corta opcional y el estado de cada Ítem de roadmap de foco en ese momento (Pendiente, En curso o Logrado). Debe haber una cada trimestre; se conserva el historial. Corregir un error de carga edita en el lugar.
+_Avoid_: seguimiento, 1:1
+
 **Delivery KPI**:
 Una de las cinco métricas de entrega del handbook. Se mide por equipo y nunca se atribuye a un Developer; cuenta en la evaluación de Tech Leaders y Tech Managers.
 _Avoid_: KPI de rendimiento, métrica individual

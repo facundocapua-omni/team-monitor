@@ -34,3 +34,6 @@ Entra solo si sale casi gratis de los mismos datos.
 
 **Decidido en [Skills](05-skills.md)**:
 - el headcount por Plataforma usa la Plataforma principal. Hay una segunda vista posible, por Skill y Nivel de dominio, que sale de los mismos datos.
+
+**Decidido en [Plan de carrera](06-plan-de-carrera.md)**:
+- la cobertura de los Planes de carrera (cuántos Developers y Tech Leaders empleados tienen un plan En curso, y cuántos están al día con sus Revisiones) sale de los mismos datos. Como las Revisiones tienen historial, la evolución de esa cobertura sale casi gratis.
