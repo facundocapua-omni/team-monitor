@@ -80,3 +80,5 @@ Resuelta el 2026-10-09 en una sesión de grilling. Los términos nuevos (Cliente
 - **Utilización**: la suma de las Asignaciones confirmadas y facturables sobre la Capacidad de la misma población del Dojo. Se agrega por Región, Track, CMS o Seniority, y se mira en una fecha o como promedio de un mes. Dojo, Utilización y la parte no facturable suman siempre la Capacidad de esa población.
 
 **Actualización (2026-10-15)**: CMS pasó a Plataforma. El Proyecto declara una o más Plataformas (obligatorio salvo lo interno) y la Necesidad suma un Nivel de dominio mínimo; ver [Skills](05-skills.md).
+
+**Actualización (2026-10-19)**: la Dedicación de una Asignación (y el porcentaje de una Indisponibilidad) admite decimales: mayor que 0 y hasta 100, con hasta dos decimales. Antes era un entero del 1 al 100, pero la planilla de capacidad real trae dedicaciones como 6,25%. La pantalla sigue ofreciendo 25, 50, 75 y 100 como atajos.

@@ -49,3 +49,17 @@ El diseño no debe impedir que más adelante cada Tech Manager cargue lo suyo.
 - el Cliente y el tipo de proyecto (mantenimiento, infraestructura) están embebidos en el nombre del proyecto, así que el mapeo a Cliente y Proyecto es una decisión de importación;
 - 5 recursos están sobreasignados en la propia planilla: la carga debe aceptarlo y marcarlo, no rechazarlo;
 - no hay historial de Asignaciones ya terminadas; solo el plan vigente.
+
+**Decidido (2026-10-19)**: la Dedicación de una Asignación admite decimales: un número mayor que 0 y hasta 100, con hasta dos decimales. Así la planilla de capacidad entra sin redondear (6,25% × 16 proyectos de mantenimiento suma 100%). Lo mismo vale para el porcentaje de una Indisponibilidad.
+
+**Hallazgos del listado del equipo ([Reunir las planillas](07-reunir-planillas.md), Fuente 2)**:
+- el email está en las 197 filas y no se repite, así que sirve como clave. Los externos tienen el email de su proveedor, no uno corporativo de la empresa: la clave es el email, aunque el glosario hable de "corporativo";
+- Vínculo se deduce de la columna `Fuente`: Omni son empleados y Codebay y Globant son externos. En total unas 197 personas, de las cuales 61 son externas;
+- hay que decidir cómo se convierte el `Rol` (29 valores de texto libre) en la lista cerrada de Roles del handbook, el Track y la Plataforma principal. Algunos no encajan en ningún Rol del handbook (PM, Content Manager, Consultor, PMO Lead, Analista, Technical Specialist), y hay Tracks fuera de los cuatro del handbook (App Flutter, Python, Salesforce). Falta decidir si esas personas pertenecen a la Dirección en la herramienta;
+- la `Seniority` interna (Junior I y II, Semi Senior I y II, Senior I y II, Lead I y II) tiene que mapearse a la escala de 8 niveles del handbook, en particular Lead I y II; y la segunda columna `Seniority` de los externos usa otro vocabulario. Hay 40 empleados sin ninguno de los dos;
+- `NivelIngles` trae valores con "+" (A2+, B2+) que no existen en la escala MCER; hay que decidir cómo importarlos. 27 personas no tienen nivel, lo que se carga como sin evaluar;
+- `Pais` mezcla "Spain" y "España", y hay países como India, México, Guatemala, Bolivia, El Salvador, Italia, Canadá y Rumania, que no están entre los de las dos Regiones del mapa. La zona horaria (`Timezone`) viene aparte y la herramienta no la guarda, solo la Ubicación (País y Ciudad);
+- `Certificaciones` está cargada en 73 filas como texto libre. Las certificaciones quedaron fuera del MVP ([Skills](05-skills.md)), así que no se importan;
+- `CapacidadMensual` (160 horas) no se usa: la Capacidad de la herramienta es un porcentaje;
+- no hay manager, así que la Línea de reporte y la Región no se pueden derivar de esta fuente, ni la fecha de Ingreso. Hace falta otra fuente;
+- el cruce de nombres con la planilla de capacidad coincide exacto en 61 de 97 recursos y casi coincide en unos 22 más. Hace falta una tabla de equivalencias para unir ambas fuentes, usando el email como clave.
