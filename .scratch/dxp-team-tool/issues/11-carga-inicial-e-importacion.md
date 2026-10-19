@@ -41,3 +41,11 @@ El diseño no debe impedir que más adelante cada Tech Manager cargue lo suyo.
 
 **Decidido en [Reportes hacia arriba](13-reportes-hacia-arriba.md)**:
 - las series de Utilización, Dojo y la Experiencia en Plataforma solo llegan hasta donde llegue el historial de Asignaciones cargado, así que importarlo (y no solo las vigentes) alarga esas series desde el primer día. El headcount y la rotación dependen de los Movimientos, que arrancan con el Ingreso de cada persona.
+
+**Hallazgos de [Reunir las planillas](07-reunir-planillas.md)** (planilla de capacidad semanal, 2026-10-19):
+- la planilla trae nombre, proyecto, dedicación y semanas, pero no email, Rol, Seniority, Track, manager, Plataforma, Cliente, Función, estado tentativa o confirmada, ni Facturable. El email para no duplicar a la persona hay que obtenerlo de otra fuente, o armarse una tabla de equivalencia de nombres (la planilla ya trae una hoja de equivalencias entre sus propias hojas);
+- las semanas son relativas (S1 a S25) y hace falta una fecha de ancla; las que terminan en la semana 18, el horizonte, probablemente sean "sin fin";
+- hay dedicaciones fraccionarias (6,25%, 5% y 1%), y el modelo de Asignación exige un entero del 1 al 100. Hay que decidir si se redondea al importar, si se admiten decimales o si se agrupan los proyectos de mantenimiento;
+- el Cliente y el tipo de proyecto (mantenimiento, infraestructura) están embebidos en el nombre del proyecto, así que el mapeo a Cliente y Proyecto es una decisión de importación;
+- 5 recursos están sobreasignados en la propia planilla: la carga debe aceptarlo y marcarlo, no rechazarlo;
+- no hay historial de Asignaciones ya terminadas; solo el plan vigente.
